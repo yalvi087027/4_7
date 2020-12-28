@@ -13,6 +13,7 @@ int func(int x, int y)
         {
             return a;
         }
+        a+=1;
     }
     return -1;
 }
@@ -26,7 +27,8 @@ int main()
     {
         printf("net");
     }
-    else{
-        printf("da, %d v dyepeni %d ravno %d",k,m,n);
+    else
+    {
+        printf("da, %d v dyepeni %d ravno %d", k, m, n);
     }
 }
