@@ -24,7 +24,11 @@ int main()
     scanf("%d %d",&n,&m);
     int k = func(n,m);
     if(k==-1)
+    {
         printf("net");
+    }
     else
+    {
         printf("da, %d v dyepeni %d ravno %d",k,m,n);
+    }
 }
